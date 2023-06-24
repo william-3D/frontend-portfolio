@@ -1,10 +1,22 @@
 :root {
-	--primary: #00145c;
+	--primary: #1241eb;
 	--secondary: #000;
+	--accent1: #a109dd;
+	--paper: #f8f9fa;
 }
 
 html,
 body {
 	margin: 0;
 	padding: 0;
+	color: var(--secondary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--secondary);
 }
