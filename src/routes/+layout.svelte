@@ -5,5 +5,13 @@
 
 <main>
 	<TopNavigation />
-	<slot />
+	<div class="content">
+		<slot />
+	</div>
 </main>
+
+<style>
+	.content {
+		margin-top: 64px;
+	}
+</style>
