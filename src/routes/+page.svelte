@@ -40,7 +40,7 @@
 			</p>
 		</div>
 		<div class="pic-container">
-			<img class="pic" src="src/lib/assets/dp.png" alt="Sonia William's animated headshot" />
+			<img class="pic" src="/images/dp.png" alt="Sonia William's animated headshot" />
 		</div>
 	</section>
 	<section class="skills">
@@ -169,7 +169,7 @@
 		<h2>Projects</h2>
 		<div class="project-container">
 			<div class="project-card">
-				<img src="src/lib/assets/rps.png" alt="Rock Paper Scissors" />
+				<img src="/images/rps.png" alt="Rock Paper Scissors" />
 				<h3>Rock Paper Scissors</h3>
 				<p>The grade school classic.</p>
 				<p id="live" class="one">
@@ -178,7 +178,7 @@
 				<p><a href="https://github.com/william-3D/rock-paper-scissors">Code</a></p>
 			</div>
 			<div class="project-card">
-				<img src="src/lib/assets/etch.png" alt="Etch A Sketch" />
+				<img src="/images/etch.png" alt="Etch A Sketch" />
 				<h3>Etch A Sketch</h3>
 				<p>For the inner child in us all!</p>
 				<p id="live" class="two">
@@ -187,7 +187,7 @@
 				<p><a href="https://github.com/william-3D/etch-a-sketch">Code</a></p>
 			</div>
 			<div class="project-card">
-				<img src="src/lib/assets/calculator.png" alt="Calculator" />
+				<img src="/images/calculator.png" alt="Calculator" />
 				<h3>Calculator</h3>
 				<p>Built to deepen my understanding of vanilla JS.</p>
 				<p id="live" class="three">
@@ -196,7 +196,7 @@
 				<p><a href="https://github.com/william-3D/calculator">Code</a></p>
 			</div>
 			<div class="project-card">
-				<img src="src/lib/assets/amazon.png" alt="Amazon Clone" />
+				<img src="/images/amazon.png" alt="Amazon Clone" />
 				<h3>Amazon Clone</h3>
 				<p>Aimed at learning React, Tailwind CSS & Redux.</p>
 				<p class="four">In progress!</p>
