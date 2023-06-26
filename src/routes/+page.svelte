@@ -213,6 +213,11 @@
 			</div>
 		</div>
 	</section>
+	<footer id="contact">
+		<h3>Contact Me</h3>
+		<p>98wsonia@gmail.com</p>
+		<p id="copy">© 2023 Sonia William</p>
+	</footer>
 </body>
 
 <style lang="scss">
@@ -309,6 +314,10 @@
 		font-size: 50px;
 	}
 
+	h3 {
+		font-size: 25px;
+	}
+
 	.about-me {
 		display: flex;
 		justify-content: space-around;
@@ -335,7 +344,6 @@
 		box-shadow: 5px 5px 20px var(--accent1);
 		border-radius: 40px;
 		h3 {
-			font-size: 25px;
 			color: #083f99;
 		}
 		p {
@@ -379,6 +387,20 @@
 			margin-top: 25px;
 			width: 250px;
 			border-radius: 150px;
+		}
+	}
+
+	footer {
+		background-color: var(--accent1);
+		color: var(--secondary);
+		text-align: center;
+		padding: 60px;
+		p {
+			margin-top: -20px;
+		}
+		#copy {
+			margin-top: 50px;
+			font-size: 15px;
 		}
 	}
 </style>
