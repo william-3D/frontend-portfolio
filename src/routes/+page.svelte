@@ -1,10 +1,10 @@
 <body>
-	<section class="hero">
+	<section class="hero" id="hero">
 		<div class="hero-area">
 			<div class="hero-text">
 				<h1>Sonia William</h1>
 				<p>Front-End Developer</p>
-				<div class="button">About me</div>
+				<a href="#about-me"><div class="button">About me</div></a>
 			</div>
 			<div class="socials">
 				<a href="https://www.linkedin.com/in/s-anne-william-52771916b/" class="social">
@@ -28,7 +28,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="about-me">
+	<section class="about-me" id="about-me">
 		<div class="info">
 			<h2>Hello!</h2>
 			<p>
@@ -175,7 +175,7 @@
 			</ul>
 		</div>
 	</section>
-	<section class="projects">
+	<section class="projects" id="projects">
 		<h2>Projects</h2>
 		<div class="project-container">
 			<div class="project-card">
@@ -236,6 +236,9 @@
 		align-items: center;
 		background-color: #fdf4d0;
 		padding-top: 120px;
+		a {
+			text-decoration: none;
+		}
 	}
 
 	.hero-text {

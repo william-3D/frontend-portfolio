@@ -1,18 +1,15 @@
 <nav class="top-nav">
-	<a class="logo" href="">Sonia W</a>
+	<a class="logo" href="#hero">Sonia W</a>
 
 	<ul>
 		<li>
-			<a href="/">Home</a>
+			<a href="#hero">Home</a>
 		</li>
 		<li>
-			<a href="/about">About</a>
+			<a href="#about-me">About</a>
 		</li>
 		<li>
-			<a href="/projects">Projects</a>
-		</li>
-		<li>
-			<a href="/contact">Contact</a>
+			<a href="#projects">Projects</a>
 		</li>
 	</ul>
 </nav>
@@ -33,7 +30,7 @@
 		.logo {
 			color: var(--primary);
 			font-weight: bold;
-			font-size: 16px;
+			font-size: 25px;
 		}
 
 		a {
