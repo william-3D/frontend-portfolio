@@ -40,7 +40,7 @@
 			text-decoration: none;
 			color: var(--secondary);
 			&:hover {
-				color: var(--accent1);
+				color: var(--primary);
 				text-decoration: underline;
 			}
 		}
