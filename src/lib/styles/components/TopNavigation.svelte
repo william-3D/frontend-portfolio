@@ -1,7 +1,11 @@
+<head>
+	<script src="https://kit.fontawesome.com/6a7d4cd279.js" crossorigin="anonymous"></script>
+</head>
+
 <nav class="top-nav">
 	<a class="logo" href="#hero">Sonia W</a>
 
-	<ul>
+	<ul id="nav-list">
 		<li>
 			<a href="#hero">Home</a>
 		</li>
@@ -15,6 +19,9 @@
 			<a href="#contact">Contact</a>
 		</li>
 	</ul>
+	<button class="hamburger" id="hamburger">
+		<i class="fas fa-bars" />
+	</button>
 </nav>
 
 <style lang="scss">
@@ -54,6 +61,44 @@
 					display: inline-block;
 					padding: 8px 16px;
 				}
+			}
+			&.show {
+				display: block;
+			}
+			&:focus {
+				outline: 0;
+			}
+		}
+
+		.hamburger {
+			display: none;
+		}
+
+		@media only screen and (max-width: 1000px) {
+			.hamburger {
+				display: block;
+				border: 0;
+				background-color: transparent;
+				color: var(--primary);
+				font-size: 30px;
+				margin: 20px;
+				align-self: flex-end;
+			}
+
+			ul {
+				display: none;
+				background-color: var(--paper);
+				margin: 0px;
+			}
+
+			nav {
+				display: flex;
+				flex-direction: column-reverse;
+				background-color: var(--paper);
+			}
+
+			.logo {
+				display: none;
 			}
 		}
 	}
