@@ -377,12 +377,51 @@
 	}
 
 	@media only screen and (max-width: 1000px) {
+		h2 {
+			font-size: 30px;
+		}
+		.hero {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			h1 {
+				font-size: 70px;
+			}
+			p {
+				font-size: 33px;
+			}
+		}
+		.button {
+			transform: scale(0.9);
+		}
+		.about-me {
+			padding: 40px;
+			p {
+				font-size: 20px;
+			}
+			.pic-container {
+				padding-top: 20px;
+				padding-left: 0;
+			}
+			.pic {
+				transform: scale(0.75);
+				margin-top: -40;
+			}
+		}
+		.skills-container {
+			ul p {
+				font-size: 20px;
+			}
+		}
 		.project-container,
 		.tech-icons,
 		.about-me {
 			display: flex;
 			flex-wrap: wrap;
 			align-items: center;
+		}
+		.project-card {
+			height: 540px;
 		}
 	}
 

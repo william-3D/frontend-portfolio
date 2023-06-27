@@ -75,7 +75,7 @@
 		}
 
 		@media only screen and (max-width: 1000px) {
-			.hamburger {
+			/*.hamburger {
 				display: block;
 				border: 0;
 				background-color: transparent;
@@ -89,7 +89,7 @@
 				display: none;
 				background-color: var(--paper);
 				margin: 0px;
-			}
+			}*/
 
 			nav {
 				display: flex;
