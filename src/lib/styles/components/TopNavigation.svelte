@@ -32,6 +32,7 @@
 		line-height: 48px;
 		padding-left: 24px;
 		position: fixed;
+		z-index: 5;
 		top: 0;
 		left: 0;
 		right: 0;
